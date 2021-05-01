@@ -1,0 +1,33 @@
+
+.form {
+    background: rgb(142, 62, 246);
+  
+    position: relative;
+    padding: 3em 1em 1em;
+    border: 1px solid #d8d8d8;
+    margin: 1.5rem 0 0;
+  }
+  .formGroup {
+    margin-bottom: 1rem;
+    margin-top: -10px;
+  }
+  .formControl {
+    display: block;
+    margin-left: 10px;
+    width: 28%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.675rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .btn:not(:disabled):not(.disabled) {
+    margin-left: 10px;
+  }
+  
